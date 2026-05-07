@@ -8,6 +8,11 @@ $id = $_GET["id"];
 
 
 
+
+
+
+
+
 $result = mysqli_query($conn, "SELECT * FROM tasks WHERE id = $id");
 
 $task = mysqli_fetch_assoc($result);
